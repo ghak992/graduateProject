@@ -18,7 +18,7 @@
                         <a href="#" ><i class="fa fa-bell"></i></a>
                     </li>
                     <li class="dropdown">
-                        <a href="#" ><i class="fa fa-user"></i></a>
+                        <a href="#" ><i class="fa fa-user"></i> <?php echo $_SESSION['login-admin-name']; ?></a>
                     </li>
                     <li class="dropdown">
                         <a onclick="logout()" ><i class="fa fa-sign-out"></i></a>
