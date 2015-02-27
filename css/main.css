@@ -1,0 +1,14 @@
+
+/* 
+    Created on : Feb 25, 2015, 7:03:08 AM
+    Author     : Gheith
+*/
+
+//to center the content inside parent container
+.center-content{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
