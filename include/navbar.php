@@ -62,5 +62,5 @@
                         
                     </ul>
                 </div>
-                <!-- /.navbar-collapse -->
+                <!-- /.navbar-collaps -->
             </nav>
