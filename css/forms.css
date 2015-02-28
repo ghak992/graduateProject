@@ -1,0 +1,33 @@
+
+/* 
+    Created on : Feb 28, 2015, 2:38:43 AM
+    Author     : Gheith
+*/
+
+.error-mark{
+    color: #ff3333;
+    font-weight: bolder;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+.form-title{
+    font-size: 20px;
+    color: #31708f;
+    margin-bottom: 10px;
+}
+
+.forms .submit-button{
+    background: #31708f;
+    border-color: #31708f;
+}
+.forms textArea{
+    resize: none;
+}
+.form-message{
+    margin-bottom: 1px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
