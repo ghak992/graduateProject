@@ -30,11 +30,11 @@
                 <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                     <ul class="nav navbar-nav side-nav">
-                        <li class="active">
-                            <a href="#"><i class="fa fa-fw fa-dashboard"></i> item</a>
-                        </li>
                         <li>
                             <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> place</a>
+                        </li>
+                        <li class="active">
+                            <a href="#"><i class="fa fa-fw fa-dashboard"></i> item</a>
                         </li>
                         <li>
                             <a href="javascript:;" data-toggle="collapse" data-target="#servicecollapse"><i class="fa fa-fw fa-arrows-v"></i> services <i class="fa fa-fw fa-caret-down"></i></a>
