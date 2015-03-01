@@ -1,8 +1,8 @@
 
 function logout() {
-    $.get("http://localhost/graduateProject/serverrequestresponse/logout.php", function (data, status) {
+    $.get(sitelink + "serverrequestresponse/logout.php", function (data, status) {
         if (data == 'true') {
-            window.location.assign("http://localhost/graduateProject");
+            window.location.assign(sitelink);
         } else {
             alert("there is some erroe")
         }

@@ -1,3 +1,5 @@
+var sitelink = "http://10.75.114.141/graduateProject/";
+
 $(document).ready(function () {
 
     // to solve the trim problem in IE <= 8

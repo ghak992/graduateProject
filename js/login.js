@@ -31,8 +31,10 @@ $(document).ready(function () {
 
         $('#login_result').html('<i class="fa fa-spinner fa-pulse fa-3x"></i>')
 
+        $('input[name=userpassword]').attr('disabled', 'disabled');
+        $('input[name=useremail]').attr('disabled', 'disabled');
         $('input[type="submit"]').attr('disabled', 'disabled');
-        var url = "http://localhost/graduateProject/serverrequestresponse/loginrequest.php"; // the script where you handle the form input.
+        var url = sitelink + "serverrequestresponse/loginrequest.php"; // the script where you handle the form input.
         // process the form
         $.ajax({
             type: 'POST',
@@ -46,7 +48,7 @@ $(document).ready(function () {
                 .done(function (data) {
 
                     if (data.status == "true") {
-                        window.location.assign("http://localhost/graduateProject/home.php");
+                        window.location.assign(sitelink + "/home.php");
                     } else if (data.status == "false") {
                         $('input[type="submit"]').removeAttr('disabled');
                         $('#login_result').text(data.message);

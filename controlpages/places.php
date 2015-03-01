@@ -84,10 +84,10 @@
                 <div class="form-group">
                     <label>display status &nbsp;&nbsp;</label>
                     <label class="radio-inline">
-                        <input type="radio" name="optionsRadiosInline" id="display-status-true" value="option1" checked> true
+                        <input type="radio" name="optionsRadiosInline" id="display-status-true" value="true" checked> true
                     </label>
                     <label class="radio-inline">
-                        <input type="radio" name="optionsRadiosInline" id="display-status-false" value="option2"> true
+                        <input type="radio" name="optionsRadiosInline" id="display-status-false" value="false"> false
                     </label>
                 </div>
 
@@ -147,14 +147,12 @@
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>ID</th>
                             <th>NAME</th>
                             <th>TYPE</th>
                             <th>ADDRESS</th>
-                            <th>location Latitude</th>
-                            <th>location Longitude</th>
-                            <th>description</th>
-                            <th></th>
+<!--                            <th>location Latitude</th>
+                            <th>location Longitude</th>-->
+                            <th>ACTION</th>
 
                         </tr>
                     </thead>
@@ -164,17 +162,15 @@
                             ?>
                             <tr>
                                 <td><?php echo $index; ?></td>
-                                <td>Mark</td>
-                                <td>Otto</td>
+                                <td>gh</td>
                                 <td>musevbvbv vbb</td>
-                                <td>@mdo</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td><span class="btn btn-sm btn-warning btn-block">
+<!--                                <td>@mdo</td>
+                                <td>Mark</td>-->
+                                <td>address</td>
+                                <td><span class="btn btn-sm btn-warning">
                                         <span class="fa fa-file-text-o"></span>
                                     </span>
-                                </td>
-                                <td><span class="btn btn-sm btn-primary ">
+                                    <span class="btn btn-sm btn-primary ">
                                         <span class="fa fa-edit"></span>
                                     </span>
                                     <span class="btn btn-sm btn-danger ">
@@ -205,7 +201,7 @@
                             <?php
                             for ($index = 1; $index <= 20; $index++) {
                                 ?>
-                                <li <?php echo ($index == 1) ? 'class="active"' : "" ?>><a href="#"><?php echo $index; ?></a></li>
+                                <li <?php echo ($index == 13) ? 'class="active"' : "" ?>><a href="#"><?php echo $index; ?></a></li>
                                 <?php
                             }
                             ?>
